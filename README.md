@@ -1,7 +1,8 @@
 # PNGtoLEGO
 takes an input .png file and displays it as a "legofied" image. this means it's pixelated to use LEGO studs and only uses colors that LEGO studs are made in.
 
-uses the turtle module to display the "legofied" image
+uses the PIL Image module to open images
+uses the turtle library to display the "legofied" image
 
 Explanation of the processing types:
 all of the processing types divide the image into appropriately sized pieces depending on the resolution of the image and the desired/inputted dimensions.
