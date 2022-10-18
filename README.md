@@ -1,10 +1,13 @@
 # PNGtoLEGO
+
+use img_to_lego.py not ImageToLego.py; both work but img_to_lego.py is more recent and saves the output so that an image already created doesn't need to be remade.
+
 takes an input .png file and displays it as a "legofied" image. this means it's pixelated to use LEGO studs and only uses colors that LEGO studs are made in.
 
 uses the PIL Image module to open images
 uses the turtle library to display the "legofied" image
 
-Explanation of the processing types:
+Explanation of processing:
 all of the processing types divide the image into appropriately sized pieces depending on the resolution of the image and the desired/inputted dimensions.
 Type 1: crops each piece to a single pixel(the top left pixel) then matches that color the its closest LEGO counterpart
 Type2: for each piece, it goes through all the pixels and finds the most commonly occuring color. the piece is assigned the most common color's closest LEGO counterpart
