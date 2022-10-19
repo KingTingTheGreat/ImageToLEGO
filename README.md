@@ -1,8 +1,8 @@
-# PNGtoLEGO
+# ImageToLEGO
 
 use img_to_lego.py not ImageToLego.py; both work but img_to_lego.py is more recent and saves the output so that an image already created doesn't need to be remade.
 
-takes an input .png file and displays it as a "legofied" image. this means it's pixelated to use LEGO studs and only uses colors that LEGO studs are made in.
+takes an input image file and displays it as a "legofied" image. this means it's pixelated to use LEGO studs and only uses colors that LEGO studs are made in.
 
 uses the PIL Image module to open images
 uses the turtle library to display the "legofied" image
