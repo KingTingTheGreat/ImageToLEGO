@@ -1,6 +1,6 @@
 # ImageToLEGO
 
-use img_to_lego.py not ImageToLego.py; both work but img_to_lego.py is more recent and saves the output so that an image already created doesn't need to be remade.
+use img_to_lego_mp.py. img_to_lego.py and ImageToLego.py both work but img_to_lego_mp.py uses multiprocessing and is faster.
 
 takes an input image file and displays it as a "legofied" image. this means it's pixelated to use LEGO studs and only uses colors that LEGO studs are made in.
 
